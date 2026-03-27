@@ -4,4 +4,5 @@ This project contains MATLAB scripts to reproduce the results from a study on te
 
 Scripts included:
 - run_axongrowth.m: Reproduces Figure 2 results for simulated dynamics for the axonal growth and microtubule-based signaling under normal condition.
-- run_
+- run_run_phasediagram_S_tauT.m: Reproduces Figure 3 results fro simulated phase diagram in the time delay-feedback strength parameter space.
+- 
