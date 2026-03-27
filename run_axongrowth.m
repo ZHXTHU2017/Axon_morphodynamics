@@ -302,6 +302,32 @@ yyaxis right; plot(t_u, avg_L, 'r-', 'LineWidth', 2);ylabel('Mean length, L');
 xlim([t_start, t_end]); 
 grid off;
 
+data_time_series.t = t;
+data_time_series.ca = ca;
+data_time_series.cr = cr;
+data_time_series.cR = cR;
+data_time_series.L = L;
+
+save('time_series_data.mat', '-struct', 'data_time_series');
+
+data_freq_L.t = t_u;
+data_freq_L.frequency = freq_cr_seq;
+data_freq_L.L_mean = avg_L;
+
+save('freq_L_vs_time.mat', '-struct', 'data_freq_L');
+
+data_mean_vs_freq.frequency = freq_cr_seq;
+data_mean_vs_freq.ca_mean = avg_ca;
+data_mean_vs_freq.cR_mean = avg_cR;
+
+save('mean_ca_cR_vs_freq.mat', '-struct', 'data_mean_vs_freq');
+
+data_T_Ldot.t = t_u;
+data_T_Ldot.T_mean = avg_T;
+data_T_Ldot.Ldot_mean = avg_L_dot;
+
+save('T_Ldot_vs_time.mat', '-struct', 'data_T_Ldot');
+
 function trend = get_trend_exact(t, y)
 
     prom = 0.001 * (max(y) - min(y)); 
