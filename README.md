@@ -4,7 +4,8 @@ This project contains MATLAB scripts to reproduce the results from a study on te
 
 Scripts included:
 - run_axongrowth.m: Reproduces Figure 2 results for simulated dynamics for the axonal growth and microtubule-based signaling.
-- run_phasediagram_S_tauT.m: Reproduces Figure 3 results fro simulated phase diagram in the time delay-feedback strength parameter space.
+- run_phasediagram_S_tauT.m: Reproduces Figure 3 results for simulated phase diagram in the time delay-feedback strength parameter space.
+- run_PhaseDiagram_growth_phenotypes.m: Reproduces Figure 5 results for simulated phase diagram of axonal growth phenotypes.
 
 -------------------------------------------------------
 1. System Requirements
@@ -31,5 +32,5 @@ To reproduce the demo figures using the provided datasets:
 2. Run the scripts sequentially:
    a. run_axongrowth.m: Generate time series of axonal length and signaling under normal condition.
    b. run_phasediagram_S_tauT.m: Generate signal oscillation frequency in the time delay-feedback strength parameter space.
-
+   c. run_PhaseDiagram_growth_phenotypes.m: Generate phase diagram illustrating the dependence of axonal growth phenotypes on initial length L0 and feedback strength S, and phase diagram in the feedback strength and time delay plane.
 
