@@ -26,7 +26,7 @@ Scripts included:
 -------------------------------------------------------
 3. Demo
 -------------------------------------------------------
-To reproduce the demo figures using the provided datasets:
+To reproduce the demo figures:
 
 1. Open MATLAB and set the current folder to the project directory.
 2. Run the scripts sequentially:
