@@ -30,7 +30,7 @@ To reproduce the demo figures using the provided datasets:
 
 1. Open MATLAB and set the current folder to the project directory.
 2. Run the scripts sequentially:
-   a. run_axongrowth.m: Generate time series of axonal length and signaling under normal condition.
-   b. run_phasediagram_S_tauT.m: Generate signal oscillation frequency in the time delay-feedback strength parameter space.
-   c. run_PhaseDiagram_growth_phenotypes.m: Generate phase diagram illustrating the dependence of axonal growth phenotypes on initial length L0 and feedback strength S, and phase diagram in the feedback strength and time delay plane.
+   a. run_axongrowth.m: Generate time series of axonal length and signaling under normal condition (Fig. 2a,b,e,f,g).
+   b. run_phasediagram_S_tauT.m: Generate signal oscillation frequency in the time delay-feedback strength parameter space (Fig. 3b).
+   c. run_PhaseDiagram_growth_phenotypes.m: Generate phase diagram illustrating the dependence of axonal growth phenotypes on initial length L0 and feedback strength S, and phase diagram in the feedback strength and time delay plane (Fig. 5d,e).
 
